@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="resources/css/stylesroboty.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topnav">
+
+        <div class="menu">
+            <img src="resources/images/menu.png" height="30">
+        </div>
+        <div class="podstranky">
+            <div id="zakliknute">
+                <a href="roboty.html">Roboty</a>
+            </div>
+            <a href="pckomponenty.html">Počítačové komponenty</a>
+            <a href="herneprislusenstvo.html">Herné príslušenstvo</a>
+            <a href="notebooky.html">Notebooky</a>
+            <a href="computers.html">Počítače</a>
+            <a href="info.html">O nás</a>
+            <a href="index.html">Domov</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="resources/images/computerlogy.png" height="35px" />
+            </a>
+        </div>
+    </div>
+    <div class="roboty">
+        <h1>ROBOTY</h1>
+    </div>
+    <div class="produkty">
+
+        <img src="resources/images/nao.jpg">
+        <div class="robot">
+            <h3>Robot NAO</h3>
+            <p>Robot NAO je humanoidný robot. Je novinkou v oblasti výučby programovania a informatiky. Je jedinečným
+                prínosom pre Vašu školu či výskumné pracovisko. NAO je humanoidný robot od spoločnosti SoftBank
+                Robotics, má
+                umelý charakter a jeho kombinácia hardvéru a softvéru umožňuje čo najviac sa prispôsobiť človeku.</p>
+            <h4><span class="dph">Cena bez DPH: 1599,2 €</span><span class="cena">1999 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/pepper.jpg">
+        <div class="robot">
+            <h3>Robot Pepper</h3>
+            <p>Pepper je oveľa viac ako robot, je to pravý humanoidný spoločník vytvorený na to, aby s vami komunikoval
+                najprirodzenejším a intuitívnym spôsobom prostredníctvom svojich pohybov a hlasu.
+                Pepper miluje interakciu s Vami, chce sa dozvedieť viac o Vašom vkuse, Vašich návykoch a o tom, kto ste.
+            </p>
+            <h4><span class="dph">Cena bez DPH: 1359,2 €</span><span class="cena">1699 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/hauko.jpg">
+        <div class="robot">
+            <h3>PuppyGo</h3>
+            <p>Robot , odporúčaný vek od 8 rokov</p>
+            <h4><span class="dph">Cena bez DPH: 63,29 €</span><span class="cena">75,95 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/spherebolt.jpg">
+        <div class="robot">
+            <h3>Sphero BOLT</h3>
+            <p>Robot smart, interaktívny, edukatívny, ovládanie mobilom a tabletom cez aplikáciu Android a iOS,
+                kresliace,
+                blokové a pokročilé programovanie, mobilná aplikácia a svetelné efekty, výška hračky 7.3 cm, odporúčaný
+                vek
+                od 6 rokov</p>
+            <h4><span class="dph">Cena bez DPH: 148,64 €</span><span class="cena">178,37 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/mbot.jpg">
+        <div class="robot">
+            <h3>mBot – mBot Ranger – Transformable STEM Educational Robot Kit</h3>
+            <p>Programovateľná stavebnica mBot, počet komponentov v balení: 6, pripojenie USB a Bluetooth, funkcie:
+                svetelný
+                senzor, zvukový senzor, ultrazvukový snímač vzdialenosti, teplomer, gyroskop a sledovač línií,
+                200×165×120
+                mm</p>
+            <h4><span class="dph">Cena bez DPH: 166,76 €</span><span class="cena">200,11 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+    <hr />
+    <h5>©2022 by Eva Gubáňová | All rights reserved</h5>
+    <hr />
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+</body>
+
+</html>

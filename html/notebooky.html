@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="resources/css/stylesnotebooky.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="menu">
+            <img src="resources/images/menu.png" height="30">
+        </div>
+        <div class="podstranky">
+            <a href="roboty.html">Roboty</a>
+            <a href="pckomponenty.html">Počítačové komponenty</a>
+            <a href="herneprislusenstvo.html">Herné príslušenstvo</a>
+            <div id="zakliknute">
+                <a href="notebooky.html">Notebooky</a>
+            </div>
+            <a href="computers.html">Počítače</a>
+            <a href="info.html">O nás</a>
+            <a href="index.html">Domov</a>
+
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="resources/images/computerlogy.png" height="35px" />
+            </a>
+        </div>
+    </div>
+    <div class="notebooky">
+        <h1>NOTEBOOKY</h1>
+    </div>
+
+    <div class="produkty">
+
+        <img src="resources/images/macbookairsivy2.jpg">
+        <div class="notebook">
+            <h3>Macbook Air 13" M1 Vesmírne sivý SK 2020</h3>
+            <p>MacBook – Apple M1, 13.3" IPS lesklý 2560 × 1600 , RAM 8GB, Apple M1 7-jadrová GPU, SSD 256GB,
+                podsvietená klávesnica, webkamera, USB-C, čítačka odtlačkov prstov, WiFi 6, 49.9 Wh batéria, hmotnosť
+                1.25kg, MAC OS</p>
+            <h4><span class="dph">Cena bez DPH: 799,2 €</span><span class="cena">999 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+        
+        <img src="resources/images/macbookairzlaty.jpg">
+        <div class="notebook">
+            <h3>Macbook Air 13" M1 Zlatý SK 2020</h3>
+            <p>MacBook – Apple M1, 13.3" IPS lesklý 2560 × 1600 , RAM 8GB, Apple M1 7-jadrová GPU, SSD 256GB,
+                podsvietená klávesnica, webkamera, USB-C, čítačka odtlačkov prstov, WiFi 6, 49.9 Wh batéria,
+                hmotnosť 1.25kg, MAC OS</p>
+            <h4><span class="dph">Cena bez DPH: 799,2 €</span><span class="cena">999 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/lenovoideapad.jpg">
+        <div class="notebook">
+            <h3>Lenovo IdeaPad 5 14ALC05 Graphite Grey kovový</h3>
+            <p>Notebook – AMD Ryzen 5 5500U, 14" IPS antireflexný 1920 × 1080, RAM 8GB DDR4, AMD Radeon Graphics,
+                SSD 256GB, podsvietená klávesnica, webkamera, USB 3.2 Gen 1, USB-C, čítačka odtlačkov prstov, WiFi
+                6, hmotnosť 1.38kg, Windows 10 Home</p>
+            <h4><span class="dph">Cena bez DPH: 439,2 €</span><span class="cena">549 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/lenovothink.jpg">
+        <div class="notebook">
+            <h3>Lenovo ThinkBook 14 G2 ITL kovový</h3>
+            <p>Notebook – Intel Core i5 1135G7 Tiger Lake, 14" IPS antireflexný 1920 × 1080, RAM 16GB DDR4, Intel
+                Iris Xe Graphics, SSD 512GB, podsvietená klávesnica, webkamera, USB 3.2 Gen 1, USB-C, čítačka
+                odtlačkov prstov, WiFi 6, 45 Wh batéria, hmotnosť 1.4kg, Windows 10 Home</p>
+            <h4><span class="dph">Cena bez DPH: 623,2 €</span><span class="cena">779 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/hppavlion.jpg">
+        <div class="notebook">
+            <h3>HP Pavilion Gaming 15-ec1900nc Shadow Black White</h3>
+            <p>Herný notebook – AMD Ryzen 5 4600H, 15.6" IPS matný 1920 × 1080 144Hz, RAM 8GB DDR4, NVIDIA GeForce
+                GTX 1650 4GB, SSD 512GB, numerická klávesnica, podsvietená klávesnica, webkamera, USB 3.2 Gen 1,
+                USB-C, WiFi 5, 52.5 Wh batéria, hmotnosť 2.25kg, Windows 10 Home (25P51EA)</p>
+            <h4><span class="dph">Cena bez DPH: 623,2 €</span><span class="cena">779 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+    <hr />
+    <h5>©2022 by Eva Gubáňová | All rights reserved</h5>
+    <hr />
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.logo {
+    float: left;
+    margin-top: 5px;
+    transition: transform 0.5s;
+    }
+  
+  .logo:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu {
+    float: right;
+    margin-top: 8px;
+    margin-right: 10px;
+    transition: transform 0.5s;
+    }
+  
+  .menu:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    }
+  
+  .topnav {
+    background-color: #212121;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;    
+    
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .podstranky a {
+    padding: 14px 16px;
+    }
+    
+  .podstranky a:hover {
+    background-color: #61c8c1;
+    color: #212121;
+    font-weight: bold;
+  }

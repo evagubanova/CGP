@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="resources/css/stylesdoprava.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="topnav">
+    <div class="menu">
+      <img src="resources/images/menu.png" height="30">
+    </div>
+    <div class="podstranky">
+      <a href="roboty.html">Roboty</a>
+      <a href="pckomponenty.html">Počítačové komponenty</a>
+      <a href="herneprislusenstvo.html">Herné príslušenstvo</a>
+      <a href="notebooky.html">Notebooky</a>
+      <a href="computers.html">Počítače</a>
+      <a href="info.html">O nás</a>
+      <a href="index.html">Domov</a>
+    </div>
+    <div class="logo">
+      <a href="index.html">
+        <img src="resources/images/computerlogy.png" height="35px" />
+      </a>
+    </div>
+  </div>
+
+  <div class="doprava">
+    <h1>Doprava</h1>
+  </div>
+  <div class="dodavka">
+    <img src="resources/images/dodavka.jpg" height="400px">
+    <p>Ponuka platí pri nákupe nad 50€
+    <div class=""></div>
+    </p>
+  </div>
+
+  <div class="cennik">
+    <h2>Cenník doplnkových služieb:</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Doplnková služba:</th>
+          <th>Cena:</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th>Inštalácia počítača</th>
+          <td>30 €</td>
+        </tr>
+        <tr>
+          <th>Oprava počítača</th>
+          <td>50 €</td>
+        </tr>
+        <tr>
+          <th>Oprava notebooku</th>
+          <td>80 €</td>
+        </tr>
+        <tr>
+          <th>Oprava príslušenstva</th>
+          <td>30 €</td>
+        </tr>
+        <tr>
+          <th>Výmena komponentu</th>
+          <td>10 €</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>*ceny sú orientačné, cena bude stanovená individuálne na základe náročnosti práce</p>
+  </div>
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+  <hr />
+  <h4>©2022 by Eva Gubáňová | All rights reserved</h4>
+  <hr />
+
+</body>
+
+<script>
+  var mybutton = document.getElementById("myBtn");
+
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+
+</html>

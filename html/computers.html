@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="resources/css/stylescomputers.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="menu">
+            <img src="resources/images/menu.png" height="30">
+        </div>
+        <div class="podstranky">
+            <a href="roboty.html">Roboty</a>
+            <a href="pckomponenty.html">Počítačové komponenty</a>
+            <a href="herneprislusenstvo.html">Herné príslušenstvo</a>
+            <a href="notebooky.html">Notebooky</a>
+            <div id="zakliknute">
+                <a href="computers.html">Počítače</a>
+            </div>
+            <a href="info.html">O nás</a>
+            <a href="index.html">Domov</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="resources/images/computerlogy.png" height="35px" />
+            </a>
+        </div>
+    </div>
+    <div class="pocitace">
+        <h1>POČÍTAČE</h1>
+    </div>
+    <div class="popis">
+        <p>Vyberte si z kategórie stolných počítačov tú najlepšiu počítačovú zostavu pre vás. V ponuke nájdete nielen
+            počítačové zostavy na kancelárske či profesionálne použitie, ale i výkonné herné a VR-Ready počítače, ale i
+            mini počítače či špeciálne All-in-One počítače.</p>
+    </div>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#herne">Herné</a>
+            <a href="#allinone">All in one</a>
+            <a href="#beznavelkost">Bežná veľkosť</a>
+            <a href="#mini">Mini</a>
+        </div>
+    </div>  
+    <div class="center">
+        <button onclick="openNav()" class="tlacidko">Kategórie</button>
+    </div>
+
+    <div class="produkty">
+        <hr>
+        <h2 id="herne">HERNÉ</h2>
+
+        <img src="resources/images/alzaryzen.jpg">
+        <div class="pc">
+            <h3>Alza Gamebox Ryzen RTX3070</h3>
+            <p class="skalovatelne">Herný PC AMD Ryzen 5 5600X 4.6 GHz, NVIDIA GeForce RTX 3070 8 GB, RAM 32GB DDR4, SSD 1000GB+ HDD 2TB, Bez
+                mechaniky, WiFi, HDMI a DisplayPort, 4×USB 3.2, 2×USB 2.0, typ skrine: Midi Tower, Windows 10 Home</p>
+            <h4><span class="dph">Cena bez DPH: 1527,2 €</span><span class="cena">1 909 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/alzagamebox.jpg">
+        <div class="pc">
+            <h3>Alza GameBox Core GTX1660 Super</h3>
+            <p class="skalovatelne"> Herný PC Intel Core i5-9400F Coffee Lake 4.1 GHz, NVIDIA GeForce GTX 1660 Super 6 GB, RAM 16GB DDR4, SSD
+                500GB+ HDD 2TB, Bez mechaniky, WiFi, DVI, HDMI a DisplayPort, 4×USB 3.2, 2×USB 2.0, typ skrine: Midi
+                Tower, Windows 10 Home </p>
+            <h4><span class="dph">Cena bez DPH: 839,2 €</span><span class="cena">1 049 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do
+                košíka</button>
+        </div>
+
+        <img src="resources/images/alzagameboxrtx.jpg">
+        <div class="pc">
+            <h3>Alza GameBox Core RTX 3070</h3>
+            <p class="skalovatelne">Herný PC Intel Core i7 10700F Comet Lake 4.8 GHz, NVIDIA GeForce RTX 3070 8 GB, RAM 32GB DDR4, SSD
+                1000GB+ HDD 2TB 7200 ot./min, Bez mechaniky, WiFi, HDMI a DisplayPort, 4×USB 3.2, 2×USB 2.0, typ skrine:
+                Midi Tower, Windows 10 Home</p>
+            <h4><span class="dph">Cena bez DPH: 1527,2 €</span><span class="cena">1 909 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <h2 id="allinone">ALL IN ONE</h2>
+
+        <img src="resources/images/lenovoallinone.jpg">
+        <div class="pc">
+            <h3>Lenovo IdeaCentre 3 27ALC6 White</h3>
+            <p>All In One PC 27" 1920 x 1080, AMD Ryzen 5 5500U 4 GHz, AMD Radeon Graphics, RAM 16GB DDR4, SSD 512GB,
+                Bez mechaniky, HDMI, 2×USB 3.2, 2×USB 2.0, typ skrine: All In One, Myš a Klávesnica, Windows 10 Home</p>
+            <h4><span class="dph">Cena bez DPH: 639,2 €</span><span class="cena">799 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/imacczretina.jpg">
+        <div class="pc">
+            <h3>iMac 27" CZ Retina 5K 2020 s Nanotextúrou</h3>
+            <p>All In One PC 27" 5120 × 2880, Intel Core i9 10910 Comet Lake 5 GHz, AMD Radeon Pro 5500 XT 8 GB, RAM
+                32GB DDR4, SSD 2000GB, Bez mechaniky, WiFi, VGA D-SUB, DVI, HDMI a Thunderbolt 3, 4×USB 3.2, typ skrine:
+                All In One, Klávesnica, Magic Mouse 2 a Magic Trackpad 2, MAC OS</p>
+            <h4><span class="dph">Cena bez DPH: 4254,4 €</span><span class="cena">5 319 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/iMac_strieborny.jpg">
+        <div class="pc">
+            <h3>iMac 24" M1 SK Strieborný</h3>
+            <p>All In One PC 23.5" 4480 × 2520, Apple M1, Apple M1 8-jadrová GPU, RAM 16GB, SSD 512GB, Bez mechaniky,
+                WiFi, Thunderbolt 3, 2×USB 3.2, typ skrine: All In One, Magic Mouse 2 a Magic Keyboard s Touch ID, MAC
+                OS</p>
+            <h4><span class="dph">Cena bez DPH: 1543,2 €</span><span class="cena">1 929 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <h2 id="beznavelkost">BEŽNÁ VEĽKOSŤ</h2>
+
+        <img src="resources/images/alzatopoffice.jpg">
+        <div class="pc">
+            <h3>Alza TopOffice Ryzen 5 SSD</h3>
+            <p>Počítač AMD Ryzen 5 PRO 3400G 4.2 GHz, AMD Radeon RX Vega 11, RAM 16GB DDR4, SSD 500GB, DVD, WiFi, VGA
+                D-SUB a HDMI, 4×USB 3.2, 2×USB 2.0, typ skrine: Mini Tower, Bez operačného systému</p>
+            <h4><span class="dph">Cena bez DPH: 407,2 €</span><span class="cena">509 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/acerverition.jpg">
+        <div class="pc">
+            <h3>Acer Veriton ES2740G</h3>
+            <p>Počítač Intel Core i5 10400 Comet Lake 4.3 GHz, Intel HD Graphics 630, RAM 8GB DDR4, SSD 256GB, DVD, typ
+                skrine: Midi Tower, Myš a Klávesnica, Windows 10 Pro</p>
+            <h4><span class="dph">Cena bez DPH: 488 €</span><span class="cena">610 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/asuss3.jpg">
+        <div class="pc">
+            <h3>ASUS S300MA 15L Black</h3>
+            <p>Počítač Intel Core i5 10400 Comet Lake 4.3 GHz, NVIDIA GeForce GTX 1650 Super 6 GB, RAM 8GB DDR4, SSD
+                512GB, Bez mechaniky, VGA D-SUB a HDMI, 3×USB 3.2, 4×USB 2.0, typ skrine: Midi Tower, Bez operačného
+                systému</p>
+            <h4><span class="dph">Cena bez DPH: 655,2 €</span><span class="cena">819 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <h2 id="mini">MINI</h2>
+
+        <img src="resources/images/lenovothink.jpg">
+        <div class="pc">
+            <h3>Lenovo ThinkCentre M720q Tiny+ Microsoft Office 2019 pro domácnosti a podnikatele, 5y on-site</h3>
+            <p>Mini PC Intel Core i5 9400T Coffee Lake 3.4 GHz, Intel UHD Graphics 630, RAM 8GB DDR4, SSD 256GB, Bez
+                mechaniky, WiFi, VGA D-SUB, HDMI a DisplayPort, 3×USB 3.2, typ skrine: Micro Tower, Myš a Klávesnica,
+                Windows 10 Pro, (NBD)</p>
+            <h4><span class="dph">Cena bez DPH: 523,2 €</span><span class="cena">654 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/intelnuc.jpg">
+        <div class="pc">
+            <h3>Intel NUC 10i5FNHN</h3>
+            <p>Mini PC Intel Core i5-10210U Comet Lake 4.2 GHz, Intel UHD Graphics DDR4, Bez mechaniky, WiFi, HDMI a
+                USB-C, Bez operačného systém</p>
+            <h4><span class="dph">Cena bez DPH: 373,6 €</span><span class="cena">467 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/hpprodesk.jpg">
+        <div class="pc">
+            <h3>HP ProDesk 400 G7</h3>
+            <p>Počítač Intel Core i7 10700 Comet Lake 4.8 GHz, Intel UHD Graphics 630, RAM 16GB DDR4, SSD 512GB, DVD,
+                HDMI a DisplayPort, 3×USB 3.2, 4×USB 2.0, typ skrine: Micro Tower, Myš a Klávesnica, Windows 10 Pro
+                (293T7EA)</p>
+            <h4><span class="dph">Cena bez DPH: 764 €</span><span class="cena">955 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+    <hr />
+    <h5>©2022 by Eva Gubáňová | All rights reserved</h5>
+    <hr />
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+        
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+    </script>
+
+</body>
+
+</html>

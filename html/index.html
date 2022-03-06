@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="resources/css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topnav">
+        <div class="menu">
+            <img src="resources/images/menu.png" height="30">
+        </div>
+        <div class="podstranky">
+            <a href="roboty.html">Roboty</a>
+            <a href="pckomponenty.html">Počítačové komponenty</a>
+            <a href="herneprislusenstvo.html">Herné príslušenstvo</a>
+            <a href="notebooky.html">Notebooky</a>
+            <a href="computers.html">Počítače</a>
+            <a href="info.html">O nás</a>
+            <div id="zakliknute">
+                <a href="index.html">Domov</a>
+            </div>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="resources/images/computerlogy.png" height="35px" />
+            </a>
+        </div>
+    </div>
+
+    <div class="kontajner">
+        <div class="riadok">
+
+            <div class="stlpec">
+                <h1>BLACK FRIDAY</h1>
+                <h2>Veľký výpredaj herných počítačov práve teraz. Zľavy už od - 20%.</h2>
+                <a href="vypredaj.html">
+                    <button>Zistite viac</button>
+                </a>
+            </div>
+
+            <div class="stlpec">
+                <a href="vypredaj.html">
+                    <div class="mriezka mriezka1">
+                    </div>
+                </a>
+                <a href="doprava.html">
+                    <div class="mriezka mriezka2">
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="center">
+        <h3>O nás</h3>
+        <p><b>Computerlogy</b> je spoločnosť špecializujúca sa na počítače, notebooky, telefóny a výrobu herného
+            hardvéru. Bola založená v roku 2018 Jaroslavom Šalátom a Jakubom Listom.
+            Firma sídli v Prahe a má viac ako 100 pobočiek po celom Česku a Slovensku.
+        </p>
+        <div class="buttony">
+            <a href="info.html"><button>VIAC</button></a>
+        </div>
+
+        <div class="tyrkisova">
+            <h3>Počítače</h3>
+            <a href="computers.html">
+                <img src="resources/images/imacczretina.png" width="500">
+            </a>
+            <div class="buttony">
+                <a href="computers.html"><button>VIAC</button></a>
+            </div>
+        </div>
+
+        <h3>Notebooky</h3>
+        <a href="notebooky.html">
+            <img src="resources/images/macbookairsivy.jpg" width="500">
+        </a>
+        <div class="buttony">
+            <a href="notebooky.html"><button>VIAC</button></a>
+        </div>
+
+        <div class="tyrkisova">
+            <h3>Herné príslušenstvo</h3>
+            <a href="herneprislusenstvo.html">
+                <img src="resources/images/kraken.png" width="500">
+            </a>
+            <div class="buttony">
+                <a href="herneprislusenstvo.html"><button>VIAC</button></a>
+            </div>
+        </div>
+
+        <h3>Počítačové komponenty</h3>
+        <a href="pckomponenty.html">
+            <img src="resources/images/geforcetrio.jpg" width="500">
+        </a>
+        <div class="buttony">
+            <a href="pckomponenty.html"><button>VIAC</button></a>
+        </div>
+
+        <div class="tyrkisova">
+            <h3>Roboty</h3>
+            <a href="roboty.html">
+                <img src="resources/images/mbot.png" width="500">
+            </a>
+            <div class="buttony">
+                <a href="roboty.html"><button>VIAC</button></a>
+            </div>
+        </div>
+
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+    <hr />
+    <p>©2022 by Eva Gubáňová | All rights reserved</p>
+    <hr />
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+
+    </script>
+
+</body>
+
+</html>

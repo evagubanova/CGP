@@ -1,0 +1,298 @@
+body {
+margin: 0;
+}
+
+.logo {
+  float: left;
+  margin-top: 5px;
+  transition: transform 0.5s;
+  padding-left: 10px;
+}
+  
+.logo:hover {
+  transform: translateY(-5px);
+}
+  
+.menu {
+  float: right;
+  margin-top: 8px;
+  margin-right: 10px;
+  transition: transform 0.5s;
+  padding-left: 10px;
+}
+  
+.menu:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.topnav {
+  background-color: #212121;
+  overflow: hidden;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.podstranky a {
+  padding: 14px 16px;
+}
+    
+.podstranky a:hover {
+  background-color: #61c8c1;
+  color: #212121;
+  font-weight: bold;
+}
+
+#zakliknute a{
+  background-color: #61c8c1;
+  color: #212121;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: 10px 5px 4px #00000034;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#212121 ;
+  font-size: 25px;    
+  text-align: center;
+  margin-bottom: -10px;    
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#212121 ;
+  font-size: 27px;
+  text-shadow: 1px 5px 4px #00000034;
+  padding-top: 10px;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#212121;    
+}
+
+h5 {
+  font-family: Arial, Helvetica, sans-serif;    
+  font-weight: lighter;
+  font-size: 15px;
+  text-align: center;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.produkty p {
+  word-spacing: 1px;
+  letter-spacing: 0.3px;
+  line-height:normal;
+  text-align: justify;
+  text-indent: 15px;
+}
+
+.produkty button {
+  float: inline-start;
+  border: 1px solid  #212121;
+  font-size: 17px;
+  background-color:#212121 ;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.5s;
+  }
+  
+.produkty button:hover {
+  background-color: #61c8c1;
+  border: 1px solid #ffffff; 
+  color: #ffffff;
+  font-weight: bolder;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.produkty img {
+  width: 20%;      
+  float: left;
+  padding-left: 50px;
+  padding-right: 15px;
+  padding-top: 150px;
+  transition: transform 0.5s;
+}
+
+.produkty img:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.pc {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-right: 100px;      
+  }
+
+span.cena {
+  color: #61c8c1;
+  margin-left: 15px;
+  font-size: 25px;        
+}
+
+span.dph {
+  font-size: 13px;
+  color: #868686;
+  font-weight: lighter;
+}
+
+.pocitace {
+  width: 100%;
+  padding-top: 1px;
+  background-color: #61c8c1;
+  background-position: center;
+  background-size: cover;    
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(37, 145, 131, 0.466)), url(../images/background.png);
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 99; 
+  border: 1px solid #ffffff; 
+  outline: none; 
+  background-color: #61c8c1;
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#myBtn:hover {
+  background-color: #212121;
+}
+
+.arrow {
+  border: solid rgb(255, 255, 255);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}    
+     
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); 
+  overflow-x: hidden; 
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block; 
+  transition: 0.3s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+button.tlacidko {
+  border: 1px solid  #212121;
+  font-size: 17px;
+  background-color:#212121 ;
+  padding: 10px 20px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.5s;    
+  display: flex;
+  justify-content: center;
+
+}
+
+button.tlacidko:hover {
+  background-color: #61c8c1;
+  border: 1px solid #ffffff; 
+  color: #ffffff;
+  font-weight: bolder;
+  cursor: pointer;
+  transform: translateY(-5px);
+}
+
+.popis {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;  
+  margin-top: 5%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 5%;
+}
+
+.produkty hr {
+  margin-bottom: 5%;
+}
+.skalovatelne {
+  resize: both;
+  overflow: auto;
+}

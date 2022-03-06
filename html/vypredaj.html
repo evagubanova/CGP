@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="resources/css/stylesvypredaj.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <div class="topnav">
+        <div class="menu">
+            <img src="resources/images/menu.png" height="30">
+        </div>
+        <div class="podstranky">
+            <a href="roboty.html">Roboty</a>
+            <a href="pckomponenty.html">Počítačové komponenty</a>
+            <a href="herneprislusenstvo.html">Herné príslušenstvo</a>
+            <a href="notebooky.html">Notebooky</a>
+            <a href="computers.html">Počítače</a>
+            <a href="info.html">O nás</a>
+            <a href="index.html">Domov</a>
+        </div>
+        <div class="logo">
+            <a href="index.html">
+                <img src="resources/images/computerlogy.png" height="35px" />
+            </a>
+        </div>
+    </div>
+    <div class="blackfriday">
+        <h1>BLACK FRIDAY</h1>
+        <div class="prvynadpis">
+            <h2>Veľký výpredaj herných počítačov! Nepremeškajte!</h2>
+        </div>
+        <h2> Zľavy až do - 50% Už len do 13.3.2022</h2>
+        <div class="zvuk">
+            <audio controls>
+                <source src="resources/audio/Record (online-voice-recorder.com) (2).mp3">
+            </audio>
+        </div>
+    </div>
+
+    <div class="produkty">
+        <img src="resources/images/quiet.jfif">
+        <div class="pc">
+            <h3>Alza BattleBox Core RTX3080 Quiet</h3>
+            <p>Herný PC Intel Core i7 12700K Alder Lake 5 GHz, NVIDIA GeForce RTX 3080 10 GB, RAM 32GB DDR4, SSD 2000GB,
+                bez
+                mechaniky, WiFi, HDMI a DisplayPort, 3×USB 3.2, typ skrine: Midi Tower, Windows 11 Pro</p>
+            <h4><span class="povodne"> 2 819 €</span><span class="zlava"> 2255 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/tiiem.jfif">
+        <div class="pc">
+            <h3>Alza BattleBox Core RTX3060 Ti IEM</h3>
+            <p>Herný PC Intel Core i7 10700KF Comet Lake 5.1 GHz, NVIDIA GeForce RTX 3060 Ti 8 GB, RAM 32GB DDR4, SSD
+                1000GB, bez mechaniky, WiFi, HDMI a DisplayPort, 4×USB 3.2, 2×USB 2.0, typ skrine: Midi Tower, Windows
+                11 Pro</p>
+            <h4><span class="povodne">1 899 €</span><span class="zlava"> 1443 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+
+        <img src="resources/images/starblack.jfif">
+        <div class="pc">
+            <h3>ASUS ROG Strix GA35 G35DX-CZ017T Star Black</h3>
+            <p>Herný PC AMD Ryzen 7 5800X 4.7 GHz, NVIDIA GeForce RTX 3070 8 GB, RAM 32GB DDR4, SSD 1000GB+ HDD 1TB 7200
+                ot./min, bez mechaniky, WiFi, HDMI a DisplayPort, 6×USB 3.2, Windows 10 Home</p>
+            <h4><span class="povodne">2229 €</span><span class="zlava"> 1250 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/ryzen.jfif">
+        <div class="pc">
+            <h3>Alza Gamebox Ryzen RTX3060 Ti</h3>
+            <p>Herný PC AMD Ryzen 5 5600X 4.6 GHz, NVIDIA GeForce RTX 3060 Ti 8 GB, RAM 16GB DDR4, SSD 1000GB, bez
+                mechaniky, WiFi, HDMI a DisplayPort, 2×USB 3.2, 2×USB 2.0, typ skrine: Midi Tower, Windows 11 Home</p>
+            <h4><span class="povodne">1499 €</span><span class="zlava"> 1199 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+        <img src="resources/images/3070.jfif">
+        <div class="pc">
+            <h3>Alza GameBox Core RTX3070</h3>
+            <p>Herný PC Intel Core i7 10700F Comet Lake 4.8 GHz, NVIDIA GeForce RTX 3070 8 GB, RAM 32GB DDR4, SSD
+                1000GB, bez mechaniky, WiFi, HDMI a DisplayPort, 2×USB 3.2, 2×USB 2.0, typ skrine: Midi Tower, Windows
+                11 Home</p>
+            <h4><span class="povodne">1 809 €</span><span class="zlava"> 1400 €</span></h4>
+            <button type="button" onclick="alert('Produkt bol úspešne vložený do košíka')">Vložiť do košíka</button>
+        </div>
+
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="arrow up"></i></button>
+
+    <hr />
+    <h5>©2022 by Eva Gubáňová | All rights reserved</h5>
+    <hr />
+
+    <script>
+        var mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }        
+    </script>
+
+</body>
+
+</html>
